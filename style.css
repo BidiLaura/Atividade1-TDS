@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+ul {
+  height: 80px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4vw;
+  font-size: 20px;
+}
+
+li {
+  transition: all 200ms linear;
+}
+
+ul li a {
+  color: #000000;
+  text-decoration: none;
+  padding: 10px;
+}
+
+ul li a:hover {
+  color: #ffffff;
+  transition: color 200ms linear;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #86c794;
+  margin: 0;
+}
+
+#inicio {
+  background: url("https://images.pexels.com/photos/386148/pexels-photo-386148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1s") no-repeat center;
+  background-size:cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+.L01{
+  border-style:inset;
+  padding: 10px;
+  color: #000000;
+  border-color: #000000;
+}
+
+#Tipos {
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  padding-top: 80px;
+  background: rgb(87,168,103);
+  background: linear-gradient(0deg, rgba(87,168,103,1) 0%, rgba(144,180,151,1) 100%);  width: 100%;}
+
+.title{
+  border-bottom-style:inset;
+  color: rgb(255, 255, 255);
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+#Impactos {
+  background-image: url("https://images.pexels.com/photos/128421/pexels-photo-128421.jpeg");
+  background-size:cover;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  padding-top: 80px;
+  
+}
+
+.tp{
+color: rgb(40, 53, 61);
+}
+
+.auau{
+  color: rgb(255, 255, 255);
+  padding-left: 40px;
+}
+
+#ComoDescartar {
+  background: rgb(87,168,103);
+  background: linear-gradient(0deg, rgba(87,168,103,1) 0%, rgba(144,180,151,1) 100%);  width: 100%;
+  height: auto;
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+
+.descart{
+  padding: 30px;
+  text-align: center;
+  font-size: x-large;
+}
+
+#Empresas {
+  background: rgb(69,176,90);
+  background: radial-gradient(circle, rgba(69,176,90,1) 0%, rgba(144,180,151,1) 50%);
+  padding-bottom: 60px;
+  padding-top: 50px;
+}
+
+.wrap-tipos {
+  width: 100%;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.wrap-tipos > div {
+  color: #090909;
+  width: 300px;
+  height: auto;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.h2Tipos{
+  color: rgb(40, 53, 61);
+}
+
+
+.wrap-imp {
+  width: 100%;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.wrap-imp > div {
+  background-color: rgba(255, 255, 255, 0.596);
+  color: #090909;
+  width: 300px;
+  height: auto;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: #000000 10px 5px 15px;
+}
+ 
+.bungee-tint-regular {
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.wrap-empresas{
+  width: 100%;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.wrap-empresas > div {
+  color: #090909;
+  width: 300px;
+  height: auto;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.h2Emp{
+  color: rgb(40, 53, 61);
+}
+
+.pEmp{
+  font-size: larger;
+}
+.titleEmp{
+  text-align: center;
+  color: #ffffff;
+  padding-top: 30px;
+  font-size: x-large;
+  text-decoration-line: overline;
+}
+
+.a{
+  text-align: center;
+}
